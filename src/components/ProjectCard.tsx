@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 export default function ProjectCard({ p }:{ p: { title:string, tag:string, year:string, summary:string, image:string } }){
   return (
     <article className="card overflow-hidden hover:-translate-y-1 transition-transform">

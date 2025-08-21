@@ -14,7 +14,7 @@ export default function Nav() {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all ${scrolled ? 'backdrop-blur bg-base-100/50 border-b border-white/10' : ''}`}>
       <div className="container-g flex items-center justify-between py-4">
-        <Link href="#" className="font-semibold tracking-wide">Your Name</Link>
+        <Link href="#" className="font-semibold tracking-wide">Favad Rahman</Link>
         <nav className="hidden md:flex gap-6">
           {nav.map(item => (
             <a key={item.href} href={item.href} className="text-sm opacity-80 hover:opacity-100">{item.label}</a>

@@ -1,6 +1,5 @@
 'use client';
 import { marquee } from "@/content/site";
-
 export default function Marquee() {
   return (
     <div className="overflow-hidden border-y border-white/10">

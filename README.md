@@ -1,26 +1,22 @@
-# Portfolio Starter (Next.js + Tailwind + Framer Motion)
+# Portfolio Starter (Next.js + Tailwind + Framer Motion) — Favad Rahman
 
-This is an original, clean-room template inspired by modern portfolio websites. Replace content in `src/content/site.ts` and images in `public/images/`.
+Original, clean-room template aligned to your sections and projects.
 
-## Quick start
+## Quick start (local)
 ```bash
-# 1) Install deps
 npm install
-
-# 2) Run dev server
 npm run dev
 # open http://localhost:3000
 ```
 
+## Deploying to Vercel
+1. Push this folder to a GitHub repo.
+2. On Vercel → **Add New Project** → Import your repo.
+3. Framework preset: **Next.js**. Build command: `next build`. Output: `.next` (default).
+4. If the build fails, open the deployment → **View Build Logs** and check the *first* error line (often a missing dependency).
+
 ## Customize
-- **Content**: `src/content/site.ts`
-- **Branding**: colors/fonts in `tailwind.config.ts`, favicon in `public/favicon.svg`
-- **Images**: drop WebP/AVIF into `public/images/` and update the paths
-- **SEO**: `src/app/layout.tsx` metadata
-
-## Notes
-- Contact form uses Formspree by default. Replace `formEndpoint` in `src/content/site.ts`.
-- Animations use Framer Motion; the hero shows a letter-reveal effect.
-
-## License
-You can use and modify this template for personal/commercial work. Please do not copy other sites' proprietary content or assets.
+- Content: `src/content/site.ts`
+- Branding: colors/fonts in `tailwind.config.ts`, favicon in `public/favicon.svg`
+- SEO: `src/app/layout.tsx`
+- Contact form: set `formEndpoint` in `src/content/site.ts` to your Formspree/Resend endpoint.

@@ -11,7 +11,7 @@ const Schema = z.object({
 });
 
 export default function ContactForm(){
-  const { register, handleSubmit, reset, formState: { errors, isSubmitting, isSubmitSuccessful } } = useForm({ resolver: zodResolver(Schema) });
+  const { register, handleSubmit, reset, formState: { errors, isSubmitting } } = useForm({ resolver: zodResolver(Schema) });
   const onSubmit = async (data:any) => {
     try {
       const res = await fetch(contact.formEndpoint, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data) });

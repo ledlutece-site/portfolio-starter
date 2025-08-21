@@ -13,7 +13,6 @@ const letterVariant = {
 
 export default function Hero() {
   const lines = [hero.name, hero.role];
-
   return (
     <section className="section pt-36 md:pt-40">
       <div className="container-g grid md:grid-cols-2 gap-10 items-end">

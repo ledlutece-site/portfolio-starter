@@ -1,1 +1,1 @@
-export const splitToLetters = (text: string) => text.split('').map((c, i) => ({ c, i }));
+export const splitToLetters = (t: string) => t.split('').map((c,i)=>({c,i}));

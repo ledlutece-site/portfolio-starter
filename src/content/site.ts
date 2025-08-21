@@ -6,14 +6,12 @@ export const nav = [
 ];
 
 export const hero = {
-  name: "Your Name",
+  name: "Favad Rahman",
   role: "Lighting Designer & Estimation Engineer",
-  tagline: "Make places brighter, safer, and efficient.",
+  tagline: "Lighting design, lux level audits, and energy‑efficient solutions across the UAE & KSA.",
 };
 
-export const marquee = {
-  text: "Lighting • Design • Lux Audits • Energy Efficiency • ",
-};
+export const marquee = { text: "Lighting • Design • Lux Audits • Energy Efficiency • " };
 
 export const projects = [
   {
@@ -60,7 +58,7 @@ export const testimonials = [
 ];
 
 export const contact = {
-  email: "you@example.com",
+  email: "contact@favadrahman.com",
   whatsapp: "",
   city: "Dubai, UAE",
   formEndpoint: "https://formspree.io/f/your-id"
